@@ -24,3 +24,34 @@ Infinite Hop is an infinite procedurally generated platformer game with colorful
 Simply download or clone the project repository and open the `index.html` file in any modern web browser (Chrome, Firefox, Edge, Safari). No additional setup needed.
 &nbsp;
 &nbsp;
+
+## Powerups
+
+### Power-ups Provided by Player Skins
+
+| Player Color | Powerup |
+| ---      | ---       |
+| Black |  None |
+| Blue | None |
+| Red | None|
+| Lime Green | None|
+| Violet | None|
+| Gold | None|
+| Pink | Extra Life|
+| Gray | Double Jump|
+| Green | Speed Boost |
+| Rainbow | Invincibility |
+
+   
+### Power-ups Provided by Player Shapes
+   
+| Player Shape | Powerup |
+| ---      | ---       |
+| Rectangle |  None |
+| Circle | None |
+| Triangle | None|
+| Hexagon | None|
+| Star | Magnet |
+| Heart | Sheild|
+| Diamond | Super Jump|
+
