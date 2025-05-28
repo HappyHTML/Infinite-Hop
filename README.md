@@ -26,7 +26,12 @@ There is a link to a web version located in the description section of this Repo
 -or-&nbsp;&nbsp;
 
 Download or clone the project repository and open the `index.html` file in any modern web browser (Chrome, Firefox, Edge, Safari). No additional setup needed.
+&nbsp;
+&nbsp;
 
+## Issues
+
+If you find any bugs in this project, please open an Issue, and I look into it as soon as I can.  Some already noted bugs will be listed in the How-To-Play section of the website.
 &nbsp;
 &nbsp;
 
