@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #00ffea;
+    user-select: none;
+  }
+  .container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.15em;
+    text-shadow: 0 0 10px #00ffeaff;
+  }
+  h2 {
+    font-weight: normal;
+    margin-bottom: 3rem;
+    color: #00ffeaaa;
+  }
+  a.play-button {
+    position: relative;
+    display: inline-block;
+    padding: 1rem 3rem;
+    color: #00ffea;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border: 3px solid #00ffea;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #00ffeaff;
+    transition: color 0.25s ease, box-shadow 0.25s ease;
+    overflow: hidden;
+  }
+  a.play-button::before, a.play-button::after {
+    content: "";
+    position: absolute;
+    border: 3px solid #00ffea;
+    border-radius: 12px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: transform 0.4s ease;
+    pointer-events: none;
+  }
+  a.play-button::before {
+    transform: scaleX(1) scaleY(1);
+    z-index: -2;
+  }
+  a.play-button::after {
+    transform: scaleX(1) scaleY(1);
+    z-index: -1;
+    opacity: 0.6;
+  }
+  a.play-button:hover {
+    color: #000000;
+    box-shadow: 0 0 40px #00ffea;
+    background: #00ffea;
+  }
+  a.play-button:hover::before {
+    transform: scaleX(1.1) scaleY(1.2);
+  }
+  a.play-button:hover::after {
+    transform: scaleX(1.3) scaleY(1.4);
+    opacity: 0;
+  }
+  @media(max-width: 480px) {
+    h1 {
+      font-size: 3rem;
+    }
+    a.play-button {
+      font-size: 1.4rem;
+      padding: 0.8rem 2.5rem;
+    }
+  }
