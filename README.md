@@ -21,7 +21,12 @@ Infinite Hop is an infinite procedurally generated platformer game with colorful
 
 ## Installation
 
-Simply download or clone the project repository and open the `index.html` file in any modern web browser (Chrome, Firefox, Edge, Safari). No additional setup needed.
+There is a link to a web version located in the description section of this Repository.&nbsp;&nbsp;
+
+-or-&nbsp;&nbsp;
+
+Download or clone the project repository and open the `index.html` file in any modern web browser (Chrome, Firefox, Edge, Safari). No additional setup needed.
+
 &nbsp;
 &nbsp;
 
