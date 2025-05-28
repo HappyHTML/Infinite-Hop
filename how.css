@@ -1,24 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
-  body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    font-family: 'Roboto Mono', monospace;
-    color: #00ffea;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .container {
-    max-width: 700px;
-    background: rgba(0, 15, 39, 0.85);
-    padding: 30px 40px;
-    border: 2px solid #00ffea;
-    border-radius: 12px;
-    box-shadow: 0 0 20px #00ffeaaa;
-    user-select: none;
-  }
+ body, html {
+  margin: 0;
+  padding: 20px 0 20px 0; /* add vertical padding */
+  height: 100%;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Roboto Mono', monospace;
+  color: #00ffea;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* align top so content starts below padding */
+  overflow-y: auto; /* allow vertical scroll if needed */
+}
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: rgba(0, 15, 39, 0.85);
+  padding: 30px 40px;
+  border: 2px solid #00ffea;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ffeaaa;
+  user-select: none;
+  margin-top: 10px; /* add some top margin */
+}
+
   h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
